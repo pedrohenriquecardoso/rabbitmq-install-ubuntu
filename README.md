@@ -17,6 +17,7 @@
   ```sh
   echo "deb https://packages.rabbitmq.com/debian/ erlang-23.x main" | sudo tee -a /etc/apt/sources.list.d/rabbitmq.list
   ```
+
 5. Download the RabbitMQ signing key.
    
   ```sh
