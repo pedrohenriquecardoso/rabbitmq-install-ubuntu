@@ -14,13 +14,13 @@
 
 4. Add the correct RabbitMQ repository.
 
-  ```sh
-  echo "deb https://packages.rabbitmq.com/debian/ erlang-23.x main" | sudo tee -a /etc/apt/sources.list.d/rabbitmq.list
-  ```
+   ```sh
+   echo "deb https://packages.rabbitmq.com/debian/ erlang-23.x main" | sudo tee -a /etc apt/sources.list.d/rabbitmq.list
+   ```
 
 5. Download the RabbitMQ signing key.
    
-  ```sh
+   ```sh
    wget -qO - https://packages.rabbitmq.com/rabbitmq-signing-key-public.asc | sudo tee /etc/apt/trusted.gpg.d/rabbitmq.asc
    ```
 6. Update your system.
